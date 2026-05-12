@@ -1,0 +1,8 @@
+[project]
+name = "curve-tool"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["PySide6", "matplotlib", "numpy"]
+
+[project.scripts]
+curve-tool = "curve_tool.cli:main"
